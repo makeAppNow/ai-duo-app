@@ -1,0 +1,10 @@
+appId: host.exp.Exponent
+---
+- tapOn: "회원"
+- tapOn: "+ 회원 등록"
+- tapOn: "회원 이름"
+- inputText: "김지수"
+- tapOn: "예: 10"
+- inputText: "10"
+- tapOn: "등록하기"
+- assertVisible: "김지수님"
